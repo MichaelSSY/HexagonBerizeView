@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6EC93B6237AA7AF0063B24F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC93B5237AA7AF0063B24F /* AppDelegate.m */; };
+		D6EC93B9237AA7AF0063B24F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC93B8237AA7AF0063B24F /* ViewController.m */; };
+		D6EC93BC237AA7AF0063B24F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6EC93BA237AA7AF0063B24F /* Main.storyboard */; };
+		D6EC93BE237AA7B10063B24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6EC93BD237AA7B10063B24F /* Assets.xcassets */; };
+		D6EC93C1237AA7B10063B24F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6EC93BF237AA7B10063B24F /* LaunchScreen.storyboard */; };
+		D6EC93C4237AA7B10063B24F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC93C3237AA7B10063B24F /* main.m */; };
+		D6EC93CE237AA7B10063B24F /* HexagonBerizePathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC93CD237AA7B10063B24F /* HexagonBerizePathTests.m */; };
+		D6EC93D9237AA7B10063B24F /* HexagonBerizePathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC93D8237AA7B10063B24F /* HexagonBerizePathUITests.m */; };
+		D6EC93E8237AA8310063B24F /* HexagonBerizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC93E7237AA8310063B24F /* HexagonBerizeView.m */; };
+		D6EC93EB237AA8CD0063B24F /* UIView+YYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC93EA237AA8CD0063B24F /* UIView+YYExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6EC93CA237AA7B10063B24F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6EC93A9237AA7AF0063B24F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6EC93B0237AA7AF0063B24F;
+			remoteInfo = HexagonBerizePath;
+		};
+		D6EC93D5237AA7B10063B24F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6EC93A9237AA7AF0063B24F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6EC93B0237AA7AF0063B24F;
+			remoteInfo = HexagonBerizePath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6EC93B1237AA7AF0063B24F /* HexagonBerizePath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexagonBerizePath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EC93B4237AA7AF0063B24F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6EC93B5237AA7AF0063B24F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6EC93B7237AA7AF0063B24F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6EC93B8237AA7AF0063B24F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6EC93BB237AA7AF0063B24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6EC93BD237AA7B10063B24F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6EC93C0237AA7B10063B24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6EC93C2237AA7B10063B24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6EC93C3237AA7B10063B24F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6EC93C9237AA7B10063B24F /* HexagonBerizePathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexagonBerizePathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EC93CD237AA7B10063B24F /* HexagonBerizePathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HexagonBerizePathTests.m; sourceTree = "<group>"; };
+		D6EC93CF237AA7B10063B24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6EC93D4237AA7B10063B24F /* HexagonBerizePathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexagonBerizePathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EC93D8237AA7B10063B24F /* HexagonBerizePathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HexagonBerizePathUITests.m; sourceTree = "<group>"; };
+		D6EC93DA237AA7B10063B24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6EC93E6237AA8310063B24F /* HexagonBerizeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HexagonBerizeView.h; sourceTree = "<group>"; };
+		D6EC93E7237AA8310063B24F /* HexagonBerizeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HexagonBerizeView.m; sourceTree = "<group>"; };
+		D6EC93E9237AA8CD0063B24F /* UIView+YYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYExtension.h"; sourceTree = "<group>"; };
+		D6EC93EA237AA8CD0063B24F /* UIView+YYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6EC93AE237AA7AF0063B24F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EC93C6237AA7B10063B24F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EC93D1237AA7B10063B24F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6EC93A8237AA7AF0063B24F = {
+			isa = PBXGroup;
+			children = (
+				D6EC93B3237AA7AF0063B24F /* HexagonBerizePath */,
+				D6EC93CC237AA7B10063B24F /* HexagonBerizePathTests */,
+				D6EC93D7237AA7B10063B24F /* HexagonBerizePathUITests */,
+				D6EC93B2237AA7AF0063B24F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6EC93B2237AA7AF0063B24F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6EC93B1237AA7AF0063B24F /* HexagonBerizePath.app */,
+				D6EC93C9237AA7B10063B24F /* HexagonBerizePathTests.xctest */,
+				D6EC93D4237AA7B10063B24F /* HexagonBerizePathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6EC93B3237AA7AF0063B24F /* HexagonBerizePath */ = {
+			isa = PBXGroup;
+			children = (
+				D6EC93E9237AA8CD0063B24F /* UIView+YYExtension.h */,
+				D6EC93EA237AA8CD0063B24F /* UIView+YYExtension.m */,
+				D6EC93B4237AA7AF0063B24F /* AppDelegate.h */,
+				D6EC93B5237AA7AF0063B24F /* AppDelegate.m */,
+				D6EC93B7237AA7AF0063B24F /* ViewController.h */,
+				D6EC93B8237AA7AF0063B24F /* ViewController.m */,
+				D6EC93E6237AA8310063B24F /* HexagonBerizeView.h */,
+				D6EC93E7237AA8310063B24F /* HexagonBerizeView.m */,
+				D6EC93BA237AA7AF0063B24F /* Main.storyboard */,
+				D6EC93BD237AA7B10063B24F /* Assets.xcassets */,
+				D6EC93BF237AA7B10063B24F /* LaunchScreen.storyboard */,
+				D6EC93C2237AA7B10063B24F /* Info.plist */,
+				D6EC93C3237AA7B10063B24F /* main.m */,
+			);
+			path = HexagonBerizePath;
+			sourceTree = "<group>";
+		};
+		D6EC93CC237AA7B10063B24F /* HexagonBerizePathTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6EC93CD237AA7B10063B24F /* HexagonBerizePathTests.m */,
+				D6EC93CF237AA7B10063B24F /* Info.plist */,
+			);
+			path = HexagonBerizePathTests;
+			sourceTree = "<group>";
+		};
+		D6EC93D7237AA7B10063B24F /* HexagonBerizePathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6EC93D8237AA7B10063B24F /* HexagonBerizePathUITests.m */,
+				D6EC93DA237AA7B10063B24F /* Info.plist */,
+			);
+			path = HexagonBerizePathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6EC93B0237AA7AF0063B24F /* HexagonBerizePath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6EC93DD237AA7B10063B24F /* Build configuration list for PBXNativeTarget "HexagonBerizePath" */;
+			buildPhases = (
+				D6EC93AD237AA7AF0063B24F /* Sources */,
+				D6EC93AE237AA7AF0063B24F /* Frameworks */,
+				D6EC93AF237AA7AF0063B24F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexagonBerizePath;
+			productName = HexagonBerizePath;
+			productReference = D6EC93B1237AA7AF0063B24F /* HexagonBerizePath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6EC93C8237AA7B10063B24F /* HexagonBerizePathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6EC93E0237AA7B10063B24F /* Build configuration list for PBXNativeTarget "HexagonBerizePathTests" */;
+			buildPhases = (
+				D6EC93C5237AA7B10063B24F /* Sources */,
+				D6EC93C6237AA7B10063B24F /* Frameworks */,
+				D6EC93C7237AA7B10063B24F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6EC93CB237AA7B10063B24F /* PBXTargetDependency */,
+			);
+			name = HexagonBerizePathTests;
+			productName = HexagonBerizePathTests;
+			productReference = D6EC93C9237AA7B10063B24F /* HexagonBerizePathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6EC93D3237AA7B10063B24F /* HexagonBerizePathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6EC93E3237AA7B10063B24F /* Build configuration list for PBXNativeTarget "HexagonBerizePathUITests" */;
+			buildPhases = (
+				D6EC93D0237AA7B10063B24F /* Sources */,
+				D6EC93D1237AA7B10063B24F /* Frameworks */,
+				D6EC93D2237AA7B10063B24F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6EC93D6237AA7B10063B24F /* PBXTargetDependency */,
+			);
+			name = HexagonBerizePathUITests;
+			productName = HexagonBerizePathUITests;
+			productReference = D6EC93D4237AA7B10063B24F /* HexagonBerizePathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6EC93A9237AA7AF0063B24F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "shiyu Sun";
+				TargetAttributes = {
+					D6EC93B0237AA7AF0063B24F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D6EC93C8237AA7B10063B24F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D6EC93B0237AA7AF0063B24F;
+					};
+					D6EC93D3237AA7B10063B24F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D6EC93B0237AA7AF0063B24F;
+					};
+				};
+			};
+			buildConfigurationList = D6EC93AC237AA7AF0063B24F /* Build configuration list for PBXProject "HexagonBerizePath" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6EC93A8237AA7AF0063B24F;
+			productRefGroup = D6EC93B2237AA7AF0063B24F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6EC93B0237AA7AF0063B24F /* HexagonBerizePath */,
+				D6EC93C8237AA7B10063B24F /* HexagonBerizePathTests */,
+				D6EC93D3237AA7B10063B24F /* HexagonBerizePathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6EC93AF237AA7AF0063B24F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EC93C1237AA7B10063B24F /* LaunchScreen.storyboard in Resources */,
+				D6EC93BE237AA7B10063B24F /* Assets.xcassets in Resources */,
+				D6EC93BC237AA7AF0063B24F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EC93C7237AA7B10063B24F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EC93D2237AA7B10063B24F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6EC93AD237AA7AF0063B24F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EC93E8237AA8310063B24F /* HexagonBerizeView.m in Sources */,
+				D6EC93B9237AA7AF0063B24F /* ViewController.m in Sources */,
+				D6EC93EB237AA8CD0063B24F /* UIView+YYExtension.m in Sources */,
+				D6EC93C4237AA7B10063B24F /* main.m in Sources */,
+				D6EC93B6237AA7AF0063B24F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EC93C5237AA7B10063B24F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EC93CE237AA7B10063B24F /* HexagonBerizePathTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EC93D0237AA7B10063B24F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EC93D9237AA7B10063B24F /* HexagonBerizePathUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6EC93CB237AA7B10063B24F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6EC93B0237AA7AF0063B24F /* HexagonBerizePath */;
+			targetProxy = D6EC93CA237AA7B10063B24F /* PBXContainerItemProxy */;
+		};
+		D6EC93D6237AA7B10063B24F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6EC93B0237AA7AF0063B24F /* HexagonBerizePath */;
+			targetProxy = D6EC93D5237AA7B10063B24F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6EC93BA237AA7AF0063B24F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6EC93BB237AA7AF0063B24F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6EC93BF237AA7B10063B24F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6EC93C0237AA7B10063B24F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6EC93DB237AA7B10063B24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6EC93DC237AA7B10063B24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6EC93DE237AA7B10063B24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HexagonBerizePath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengnuo.zx.HexagonBerizePath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6EC93DF237AA7B10063B24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HexagonBerizePath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengnuo.zx.HexagonBerizePath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6EC93E1237AA7B10063B24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HexagonBerizePathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengnuo.zx.HexagonBerizePathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexagonBerizePath.app/HexagonBerizePath";
+			};
+			name = Debug;
+		};
+		D6EC93E2237AA7B10063B24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HexagonBerizePathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengnuo.zx.HexagonBerizePathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexagonBerizePath.app/HexagonBerizePath";
+			};
+			name = Release;
+		};
+		D6EC93E4237AA7B10063B24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HexagonBerizePathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengnuo.zx.HexagonBerizePathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HexagonBerizePath;
+			};
+			name = Debug;
+		};
+		D6EC93E5237AA7B10063B24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HexagonBerizePathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengnuo.zx.HexagonBerizePathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HexagonBerizePath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6EC93AC237AA7AF0063B24F /* Build configuration list for PBXProject "HexagonBerizePath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EC93DB237AA7B10063B24F /* Debug */,
+				D6EC93DC237AA7B10063B24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6EC93DD237AA7B10063B24F /* Build configuration list for PBXNativeTarget "HexagonBerizePath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EC93DE237AA7B10063B24F /* Debug */,
+				D6EC93DF237AA7B10063B24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6EC93E0237AA7B10063B24F /* Build configuration list for PBXNativeTarget "HexagonBerizePathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EC93E1237AA7B10063B24F /* Debug */,
+				D6EC93E2237AA7B10063B24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6EC93E3237AA7B10063B24F /* Build configuration list for PBXNativeTarget "HexagonBerizePathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EC93E4237AA7B10063B24F /* Debug */,
+				D6EC93E5237AA7B10063B24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6EC93A9237AA7AF0063B24F /* Project object */;
+}
